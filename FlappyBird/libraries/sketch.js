@@ -75,7 +75,7 @@ if (vol > thresholdTop && !clapping) {
     strokeWeight(4);
     line(width -50, bottomy, width, bottomy);
 }
-function onclick(){
+function mousePressed(){
 bird.up();
 }
     function keyPressed() {
